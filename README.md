@@ -54,10 +54,10 @@ $ pip install django-crispy-forms
 
 Apply the migrations:  
 
-`$ python manage.py migrate`
+`$ python3 manage.py migrate`
 
 Finally, run the development server:  
 
-`$ python manage.py runserver`
+`$ python3 manage.py runserver`
 
 The project will be available at 127.0.0.1:8000.
