@@ -1,2 +1,2 @@
 # getVet
-Job website for veterans
+Job hunt made easy for veterans
