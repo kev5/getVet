@@ -1,5 +1,5 @@
-body { 
-    background: linear-gradient(to left, #e66465, #9198e5); 
+body {
+    background: linear-gradient(to left, #EEEEEE, #9198e5);
 }
 .card-img-bottom {
   color: #fff;
@@ -13,7 +13,7 @@ body {
     }
     .container-large {
         width: 970px;
-    } 
+    }
 }
 .skill {
     border: 1px solid #50a9d1;
