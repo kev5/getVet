@@ -6,7 +6,7 @@
 	<h2>Veteran Profiles</h2>
 	<p>Welcome to Veteran Job Website, {% if user.is_authenticated %} {{ user.username }}{% else %}visitor{% endif %}!</p>
 	<p>
-		<strong>Total users registered: </strong> {{ count }}
+		<strong>Total users found: 1</strong>
 	</p>
 	<section>
 	<div class="dropdown">
@@ -14,32 +14,16 @@
   	<div id="myDropdown" class="dropdown-content">
 	    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
 	    <a href="{% url 'home' %}">Technology</a>
-	    <a href="techprofile/">Accounting</a>
-	    <a href="hr/">Human Resource</a>
-	    <a href="admi/">Administrative</a>
-	    <a href="custprofile/">Customer Experience</a>
+	    <a href="../techprofile/">Accounting</a>
+	    <a href="../hr/">Human Resource</a>
+	    <a href="../admi/">Administrative</a>
+	    <a href="../custprofile/">Customer Experience</a>
   	</div>
 	</div>
 	<br><br>
     <div class="container container-small">
-	    <div class="card flex-row flex-wrap">
-	        <div class="card-header border-0">
-	            <img src="{% static 'img/keval.PNG' %}" width="150" border-radius= "50%" height="160" alt="">
-	        </div>
-	        <div class="card-block px-2">
-	            <h4 class="card-title">Keval Khara</h4>
-	            <p class="card-text">Web Dev, Accounting, People Person</p>
-	            <div class="skills">
-	              <div class="skill">Technology</div>
-	              <div class="skill">Accounting</div>
-            	</div>
-            	<br>
-	            <a href="profile/" class="btn btn-primary mb-2">Read More</a>
-	            
-	        </div>
-	        <div class="w-100"></div>
-	    </div>
-	    <br>
+	    
+	    
 	    <div class="card flex-row flex-wrap">
 	        <div class="card-header border-0">
 	            <img src="{% static 'img/devin.jpg' %}" width="140" border-radius= "50%" height="170" height="200" alt="">
@@ -53,7 +37,7 @@
 	            
             	</div>
             	<br>
-	            <a href="devprofile/" class="btn btn-primary">Read More</a>
+	            <a href="../devprofile/" class="btn btn-primary">Read More</a>
 	            
 	        </div>
 	        <div class="w-100"></div>
