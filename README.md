@@ -5,7 +5,7 @@ Job hunt made easy for veterans
 
 First, clone the repository to your local machine:  
 
-`$ git clone https://github.com/sibtc/django-auth-tutorial-example.git`
+`$ git clone https://github.com/kev5/getVet.git`
 
 Install the requirements:  
 
